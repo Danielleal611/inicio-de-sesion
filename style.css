@@ -1,0 +1,44 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #efefef;
+}
+.formulario{
+    background-color: #fff;
+    width: 400px;
+    margin: auto;
+    padding: 75px;
+    border-radius: 10px;
+    text-align: center;
+}
+.titulo{
+    font-size: 36px;
+}
+.contenedor{
+    margin-top: 32px;
+    
+}
+.grupo{
+    padding-bottom: 40px;
+}
+.input{
+    width: 100%;
+    color:dimgray;
+    font-size: 16px;
+    padding: 10px 5px;
+}
+.label{
+    cursor: pointer;
+}
+.boton{
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+.terminos-condiciones{
+    color: dimgray;
+}
