@@ -6,10 +6,10 @@ body{
 }
 .formulario{
     background-color: #fff;
-    width: 400px;
     margin: auto;
+    width: 90%;
+    max-width: 400px;
     padding: 75px;
-    background-size: cover;
     border-radius: 10px;
     text-align: center;
 }
