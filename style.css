@@ -44,7 +44,7 @@ body{
     color: dimgray;
 }
 
-@media (max-width:300px) {
+@media (max-width:250px) {
     .formulario{
         width: 100%;
     }   
