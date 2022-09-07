@@ -43,3 +43,9 @@ body{
 .terminos-condiciones{
     color: dimgray;
 }
+
+@media (max-width:425px) {
+    .titulo{
+        font-size: 30px;
+    }
+}
