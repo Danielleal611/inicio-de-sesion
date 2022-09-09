@@ -15,6 +15,7 @@ body{
 }
 .titulo{
     font-size: 36px;
+    width: 100%;
 }
 .contenedor{
     margin-top: 32px;
