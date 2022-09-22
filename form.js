@@ -10,4 +10,14 @@ function validar_formulario(){
         alert("la contraseña debe tener minimo 6 caracteres.");
     }
 
-}  
+}
+function validar_contraseña(){
+    var contraseña1 = document.formDatosPersonales.password.value;
+    var contraseña2 = document.formDatosPersonales.password2.value; 
+    if(contraseña1 == contraseña2){
+        alert("contraseña confirmada.");
+    }
+    else{
+        alert("las contraseñas no coinciden.");
+    }
+}

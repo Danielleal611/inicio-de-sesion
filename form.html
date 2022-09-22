@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form onsubmit="validar_formulario();" class="formulario" action="" method="get" name="formDatosPersonales">
+    <form onsubmit="validar_formulario(); validar_contraseña();" class="formulario" action="" method="get" name="formDatosPersonales">
         <h2 class="titulo">Crear cuenta</h2>
         <div class="contenedor">
             <div class="grupo">
@@ -21,8 +21,12 @@
                 <input type="text" id="user" class="input" placeholder="Usuario " required>
             </div>
             <div class="grupo">
-                <label for="password" class="label">Contraseña:</label>
+                <label for="password" class="label">Crear Contraseña:</label>
                 <input type="password" id="password" class="input" placeholder="Contraseña" required>
+            </div>
+            <div class="grupo">
+                <label for="password2" class="label">Confirmar Contraseña:</label>
+                <input type="password" id="password2" class="input" placeholder="Contraseña" required>
             </div>
             <input type="submit" class="boton" value="Crear">
         </div>
