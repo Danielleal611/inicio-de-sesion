@@ -12,21 +12,21 @@
     <title>Document</title>
 </head>
 <body>
-    <form onsubmit="validar_formulario();" class="formulario" action="" method="get" name="formDatosPersonales">
+    <form onsubmit="validar_formulario();" class="formulario" action="inicio.php" method="post" name="formDatosPersonales">
         <h2 class="titulo">Inicia sesión</h2>
         <p class="parrafo">¿aun no tienes una cuenta? <a target="_blank" href="form.html" class="link">Crear cuenta aquí</a></p>
         <div class="contenedor">
             <div class="grupo">
                 <label for="name" class="label">Nombre:</label>
-                <input type="text" id="name" class="input" placeholder="Nombre" required>
+                <input type="text" id="name" name="nombre" class="input" placeholder="Nombre" required>
             </div>
             <div class="grupo">
                 <label for="user" class="label">Usuario:</label>
-                <input type="text" id="user" class="input" placeholder="Usuario " required>
+                <input type="text" id="user" name="usuario" class="input" placeholder="Usuario " required>
             </div>
             <div class="grupo">
                 <label for="password" class="label">Contraseña:</label>
-                <input type="password" id="password" class="input" placeholder="Contraseña" required>
+                <input type="password" id="password" name="contraseña" class="input" placeholder="Contraseña" required>
             </div>
             <div class="grupo">
                 <input type="checkbox">
